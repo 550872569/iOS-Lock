@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C55F315213D51AC002EBE79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C55F314213D51AC002EBE79 /* Images.xcassets */; };
 		2CA4ADD2213B542200E43798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4ADD1213B542200E43798 /* AppDelegate.m */; };
 		2CA4ADD5213B542200E43798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4ADD4213B542200E43798 /* ViewController.m */; };
-		2CA4ADD8213B542200E43798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA4ADD6213B542200E43798 /* Main.storyboard */; };
-		2CA4ADDA213B542400E43798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA4ADD9213B542400E43798 /* Assets.xcassets */; };
-		2CA4ADDD213B542400E43798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA4ADDB213B542400E43798 /* LaunchScreen.storyboard */; };
 		2CA4ADE0213B542400E43798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4ADDF213B542400E43798 /* main.m */; };
 		2CA4ADEA213B542400E43798 /* iOS_LockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4ADE9213B542400E43798 /* iOS_LockTests.m */; };
 		2CA4ADF5213B542500E43798 /* iOS_LockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4ADF4213B542500E43798 /* iOS_LockUITests.m */; };
@@ -35,14 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C55F314213D51AC002EBE79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CA4ADCD213B542200E43798 /* iOS_Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA4ADD0213B542200E43798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CA4ADD1213B542200E43798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2CA4ADD3213B542200E43798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2CA4ADD4213B542200E43798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2CA4ADD7213B542200E43798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CA4ADD9213B542400E43798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CA4ADDC213B542400E43798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA4ADDE213B542400E43798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA4ADDF213B542400E43798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CA4ADE5213B542400E43798 /* iOS_LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_LockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,11 +101,9 @@
 				2CA4ADD1213B542200E43798 /* AppDelegate.m */,
 				2CA4ADD3213B542200E43798 /* ViewController.h */,
 				2CA4ADD4213B542200E43798 /* ViewController.m */,
-				2CA4ADD6213B542200E43798 /* Main.storyboard */,
-				2CA4ADD9213B542400E43798 /* Assets.xcassets */,
-				2CA4ADDB213B542400E43798 /* LaunchScreen.storyboard */,
 				2CA4ADDE213B542400E43798 /* Info.plist */,
 				2CA4ADDF213B542400E43798 /* main.m */,
+				2C55F314213D51AC002EBE79 /* Images.xcassets */,
 			);
 			path = iOS_Lock;
 			sourceTree = "<group>";
@@ -235,9 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA4ADDD213B542400E43798 /* LaunchScreen.storyboard in Resources */,
-				2CA4ADDA213B542400E43798 /* Assets.xcassets in Resources */,
-				2CA4ADD8213B542200E43798 /* Main.storyboard in Resources */,
+				2C55F315213D51AC002EBE79 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +290,6 @@
 			targetProxy = 2CA4ADF1213B542400E43798 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2CA4ADD6213B542200E43798 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CA4ADD7213B542200E43798 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CA4ADDB213B542400E43798 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CA4ADDC213B542400E43798 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2CA4ADF7213B542500E43798 /* Debug */ = {
@@ -433,15 +406,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Lock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ckys..iOS-Lock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,15 +426,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Lock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ckys..iOS-Lock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
