@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		2C55F314213D51AC002EBE79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C55F316213D577A002EBE79 /* NSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLog.h; sourceTree = "<group>"; };
 		2CA4ADCD213B542200E43798 /* iOS_Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA4ADD0213B542200E43798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CA4ADD1213B542200E43798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		2CA4ADCF213B542200E43798 /* iOS_Lock */ = {
 			isa = PBXGroup;
 			children = (
+				2C55F316213D577A002EBE79 /* NSLog.h */,
 				2CA4ADD0213B542200E43798 /* AppDelegate.h */,
 				2CA4ADD1213B542200E43798 /* AppDelegate.m */,
 				2CA4ADD3213B542200E43798 /* ViewController.h */,
